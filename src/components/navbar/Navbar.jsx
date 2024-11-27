@@ -11,22 +11,22 @@ const Navbar = () => {
         <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{duration:0.5}}
+          transition={{ duration: 0.5 }}
         >
           Ronak Parmar
         </motion.span>
         <div className="social">
-          <a href="#">
-            <img src="/facebook.png" alt="" />
+          <a href="https://www.linkedin.com/in/parmar-ronak/" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="#">
-            <img src="/instagram.png" alt="" />
+          <a href="https://www.instagram.com/parmar_ronak_21/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
+          <a href="mailto:parmarronak21112003@gmail.com" target="_blank">
+            <i class="fa-regular fa-envelope"></i>
           </a>
-          <a href="#">
-            <img src="/dribble.png" alt="" />
+          <a href="https://github.com/RonakParmar21" target="_blank">
+            <i class="fa-brands fa-github"></i>
           </a>
         </div>
       </div>

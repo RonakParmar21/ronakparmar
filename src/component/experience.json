@@ -1,0 +1,38 @@
+{
+    "experience": [
+      {
+        "role": "Web Developer (Frontend)",
+        "company": "Avadh Web",
+        "duration": "October 2024 - Current",
+        "description": [
+          "Working on a Avadh Web task distribution with key features including Assign Task, Check Task, and Task Report to streamline and organize student task management.",
+          "Designed and implemented two distinct admin roles to enable controlled task assignment and progress tracking.",
+          "Built functionalities for students to accept, perform, and submit tasks for improved engagement and accountability.",
+          "Integrated a feature allowing students to view all past tasks for easy tracking and performance assessment.",
+          "Leveraging React for an interactive and responsive frontend, ensuring seamless data handling and a smooth user experience.",
+          "TechStack: React js, HTML, CSS, JavaScript"
+        ]
+      },
+      {
+        "role": "Project Trainee",
+        "company": "Acty System India PVT. LTD.",
+        "duration": "April 2024 - 04 Sept, 2023",
+        "description": [
+          "Working with Acty System India PVT. LTD. where I mostly learn Dot net and Oracle Database.",
+          "Learn how to optimize query and how to get data fastest way from database.",
+          "TechStack: Oracle, HTML, CSS, BootStrap, JavaScript, Dot Net."
+        ]
+      },
+      {
+        "role": "Lab Assistant",
+        "company": "Gurukul College Junagadh",
+        "duration": "July 2023 - March 2024",
+        "description": [
+          "Lab Assistant in leading computer lab sessions and checking computer programs in different programming languages.",
+          "Tutored students in advanced programming concepts.",
+          "Working with multiple technologies : C Language, Java, HTML, CSS, JavaScript, Oracle, CPP, PHP, Basic Data Structure."
+        ]
+      }
+    ]
+  }
+  

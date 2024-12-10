@@ -6,7 +6,7 @@ import linkedin from '../assets/linkedin.svg'
 import reactLogo from '../assets/react.svg'
 import javaLogo from '../assets/java.svg'
 import tailwind from '../assets/tailwindCSS.svg'
-import hero4 from '../assets/hero/final_passed_img4.png'
+import hero4 from '../assets/hero/hero.png'
 
 const Hero = () => {
   return (

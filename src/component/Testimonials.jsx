@@ -15,12 +15,14 @@ import { Quote, Star } from 'lucide-react';
 const Testimonial = () => {
 
     const testimonials = [
-        // {
-        //   id: 1,
-        //   name: "Darshan Dokal",
-        //   rating: 5,
-        //   text: "The flavors at this restaurant are absolutely incredible! Every dish I've tried has been a delightful experience."
-        // },
+        {
+          id: 1,
+          name: "Hiren B. Thummar",
+          rating: 5,
+          text: "Absolutely thrilled with the C# desktop application! It runs smoothly, is highly efficient, and meets all our requirements perfectly. The attention to detail and functionality exceeded our expectations. Highly professional work—delivered on time with great communication. Highly recommended!",
+          person: 'CEO of Madhav Infotech'
+        },
+        
         // {
         //   id: 2,
         //   name: "Michael Chen",
@@ -103,7 +105,7 @@ const Testimonial = () => {
                                 <div className='flex justify-between items-center'>
                                   <div>
                                   <h3 className='font-semibold text-[#378785] text-lg'>{item.name}</h3>
-                                  <p className='text-sm mt-1'>CEO, Webelite Builders</p>
+                                  <p className='text-sm mt-1'>{item.person}</p>
                                   </div>
                                   <Quote className='text-[#378785]'/>
                                 </div>

@@ -1,24 +1,43 @@
 import React from 'react'
 import Portfolio from '../assets/Portfolio.png'
 import RSHotel from '../assets/RSHotel.png'
+import MadhavInfotech from '../assets/madhav_infotech.png'
+import MadhavInfotechCertification from '../assets/madhav_infotech_certification.jpg'
 import Cards from './Cards'
 
 const Projects = () => {
 
+    // const freelancingProjectJson = [
+    //     {
+    //         title: 'Madhav Infotech',
+    //         desc: ''
+    //     }
+    // ]
+
     const projectJson = [
+        {
+            title: 'Madhav Infotech (Rojmel)',
+            desc: "Developed a C# desktop application for Madhav Infotech as a freelancing project, designed to streamline accounting and business management. The application provides essential tools for managing financial transactions, inventory tracking, and worker-related activities while ensuring accurate financial reporting and analysis. Built exclusively for PC, it offers a user-friendly interface and reliable performance to enhance business operations. Tech Stack: C#, Microsoft Access.",
+            image: MadhavInfotech,
+            live: MadhavInfotechCertification,
+            github: MadhavInfotechCertification,
+            type: "Freelancing Project"
+        },
         {
             title: 'Portfolio',
             desc: "A modern and responsive portfolio website built using React.js and Tailwind CSS to showcase my skills, Experience, projects, and professional background. It includes interactive sections like About Me, Experience, Skills, Projects, and Contact, along with seamless navigation and a sleek design. This project demonstrates my ability to create scalable and visually appealing web applications while ensuring responsiveness and user-friendly experience across devices.",
             image: Portfolio,
             live: "https://ronakparmar.vercel.app/",
-            github: "https://github.com/RonakParmar21/ronakparmar"
+            github: "https://github.com/RonakParmar21/ronakparmar",
+            type: "Academic Project"
         },
         {
             title: 'R&S Hotel',
             desc: "A hotel management system built using ASP.NET and SQL Server Management Studio, developed by Ronak Parmar and Smeet Rathod. It features user registration, secure OTP-based login, room booking, reviews, and profile management for clients. Admins can manage rooms, users, bookings, and staff efficiently. The system ensures seamless operations, enhanced security, scalability, and a user-friendly interface for improved management and customer satisfaction.",
             image: RSHotel,
             live: "",
-            github: "https://github.com/RonakParmar21/r-s-hotel"
+            github: "https://github.com/RonakParmar21/r-s-hotel",
+            type: "Academic Project"
         },
         // {
         //     title: 'R&S Hotel',

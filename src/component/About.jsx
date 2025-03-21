@@ -13,6 +13,9 @@ import Spring from '../assets/Spring.svg'
 import Oracle from '../assets/Oracle.svg'
 import Github from '../assets/Github.svg'
 import Dotnet from '../assets/Dotnet.svg'
+import Php from '../assets/php.svg'
+import Python from '../assets/python.svg'
+import DJango from '../assets/django.svg'
 
 const About = () => {
   return (
@@ -57,15 +60,15 @@ const About = () => {
                                     <span className='font-semibold'>JavaScript</span>
                                 </div>
 
-                                <div className='border border-[#378785] flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-[#378785]'>
+                                {/* <div className='border border-[#378785] flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-[#378785]'>
                                     <img src={ReactLogo} alt="" className='w-10' />
                                     <span className='font-semibold'>React</span>
-                                </div>
+                                </div> */}
 
-                                <div className='border border-[#378785] flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-[#378785]'>
+                                {/* <div className='border border-[#378785] flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-[#378785]'>
                                     <img src={ReduxLogo} alt="" className='w-10' />
                                     <span className='font-semibold'>Redux</span>
-                                </div>
+                                </div> */}
 
                                 <div className='border border-[#378785] flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-[#378785]'>
                                     <img src={Tailwind} alt="" className='w-10' />
@@ -83,9 +86,24 @@ const About = () => {
                                 </div>
 
                                 <div className='border border-[#378785] flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-[#378785]'>
+                                    <img src={Php} alt="" className='w-10' />
+                                    <span className='font-semibold'>PHP</span>
+                                </div>
+
+                                <div className='border border-[#378785] flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-[#378785]'>
+                                    <img src={Python} alt="" className='w-10' />
+                                    <span className='font-semibold'>Python</span>
+                                </div>
+
+                                <div className='border border-[#378785] flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-[#378785]'>
+                                    <img src={DJango} alt="" className='w-10' />
+                                    <span className='font-semibold'>DJango</span>
+                                </div>
+
+                                {/* <div className='border border-[#378785] flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-[#378785]'>
                                     <img src={Spring} alt="" className='w-10' />
                                     <span className='font-semibold'>Spring</span>
-                                </div>
+                                </div> */}
 
                                 <div className='border border-[#378785] flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-[#378785]'>
                                     <img src={Github} alt="" className='w-10' />
